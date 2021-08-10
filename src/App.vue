@@ -428,15 +428,14 @@ body {
           padding: 0.5rem;
           border: 1px solid white;
           color: white;
-          background: transparent;
           cursor: pointer;
           &#add {
             border: 1px solid green;
-            color: green;
+            background: green;
           }
           &#delete {
             border: 1px solid red;
-            color: red;
+            background: red;
           }
           &[type="submit"] {
             font-size: 1.2rem;
